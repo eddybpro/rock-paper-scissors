@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>ROCK PAPER SCISSORS</title>
+  </head>
+  <body>
+    <div class="div-rules close-div">
+      <img class="close" src="images/icon-close.svg" alt="close" />
+      <p class="rules-para">RULES</p>
+    </div>
+
+    <div class="first-container">
+      <div class="img-div">
+        <img class="logo" src="images/logo.svg" alt="ROCK-PAPER-SCISSORS" />
+      </div>
+      <div class="score-div">
+        <p class="score-para">SCORE</p>
+        <input
+          class="score-btn"
+          type="button"
+          name="score"
+          id="score"
+          value="0"
+        />
+      </div>
+    </div>
+    <div class="div-rules" id="div-rules">
+      <img class="img-rules" src="images/image-rules.svg" alt="rules" />
+    </div>
+
+    <div class="second-container" id="second-container">
+      <div class="outer-div outer-paper">
+        <div class="inner-div" id="paper">
+          <img src="images/icon-paper.svg" alt="paper" />
+        </div>
+      </div>
+      <div class="outer-div outer-scissors">
+        <div class="inner-div" id="scissors">
+          <img src="images/icon-scissors.svg" alt="scissors" />
+        </div>
+      </div>
+      <div class="outer-div outer-rock">
+        <div class="inner-div" id="rock">
+          <img src="images/icon-rock.svg" alt="rock" />
+        </div>
+      </div>
+    </div>
+
+    <div class="contest">
+      <div class="user-div"></div>
+      <div class="game">
+        <p class="game-title">YOU WIN</p>
+        <p class="play-again">PLAY AGAIN</p>
+      </div>
+      <div class="computer-choice"></div>
+    </div>
+
+    <div class="rules">
+      <button id="rules-btn" class="rules-btn">RULES</button>
+    </div>
+
+    <footer>
+      <p class="footer-para">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH"
+          target="_blank"
+          >Frontend Mentor</a
+        >
+        Coded by
+        <a href="https://github.com/eddybpro" target="_blank">Edyybpro</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
